@@ -30,6 +30,8 @@ class Assignment extends StatelessWidget {
         children: [
           Center(
             child: RaisedButton(
+              disabledColor: Colors.grey[200],
+              disabledTextColor: Colors.grey[350],
               padding: EdgeInsets.symmetric(
                 horizontal: 100,
               ),
@@ -50,6 +52,7 @@ class Assignment extends StatelessWidget {
           Center(
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
+                
                 //fixedSize: const Size(300, 30),
                 //minimumSize: Size(200, 40),
                 //maximumSize: Size(400, 40),
